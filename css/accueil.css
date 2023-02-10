@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
     
-    .parent {
+    .haut {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(8, 1fr);
@@ -19,7 +19,7 @@
         display: flex; 
         justify-content: center;
         align-items: center;
-        background-image: url("../image/baniere\ gif.gif");
+        background-image: url("../img/baniere\ gif.gif");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -28,3 +28,131 @@
 img{
     margin-top: -300px;
 }
+
+a {
+    display: flex;
+    justify-content: center;
+    max-width: 190px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    transition: 1s cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    
+  }
+  
+.button{
+    margin-top: -300px;
+}
+
+  a.button {
+    color: #00bfff;
+    box-shadow: #020202 0 0 0 2px inset;
+    height: 8vh;
+    margin-left: 600px;
+    
+  }
+  
+  a.button:hover {
+    color: #fff;
+   
+  }
+  .button:hover{
+    background-color: rgb(102, 25, 25);
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .menu1 { grid-area: 1 / 1 / 2 / 9; }
+    .image_tete { grid-area: 2 / 1 / 3 / 9; }
+    .image_presentation{ grid-area: 3 / 1 / 4 / 9; }
+    .texte_presentation{ grid-area: 3 / 1 / 4 / 4; }
+    .button_presentation{ grid-area: 3 / 6 / 4 / 9; }
+    .carroussel { grid-area: 4 / 1 / 5 / 9; }
+    .photo1 { grid-area: 5 / 1 / 6 / 5; }
+    .photo2{ grid-area: 5 / 6 / 6 / 9; }
+    .footer{ grid-area: 6 / 1 / 7 / 9; }
+    .contact{ grid-area: 6 / 7 / 7 / 9; }
+    .menu_footer { grid-area: 6 / 3 / 7 / 6; }
+    .logo_footer { grid-area: 6 / 1 / 7 / 2; }
+
+
+
+
+
+
+
+    nav {
+        text-align: center;
+    
+      
+      }
+      .menu1 {
+        display:flex;
+        justify-content: space-around;
+    
+      }
+      .menu1 > li {
+        float: left;
+        color: #b36700;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        font-size: 1em;
+        text-shadow: #000000 1px 1px 1px ;
+
+      }
+      .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li {
+        font-size: 18px;
+        padding: 8px 0;
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+        font-size: 0.6em;
+        color: #000000;
+        text-shadow: #b36700 0.5px 0.5px 0.5px ;
+       
+        
+      }
+    
+       a{
+        text-decoration: none;
+        color: rgb(8, 8, 8);
+      }
+    
+
+    
+      .sub-menu li:hover {
+        color: coral;
+      }
+      .menu1 > li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menu1 > li:hover .sub-menu {
+        transform: scale(1);
+      }
+
+      li{
+       list-style: none;
+      }
+
+
+      .image_tete{
+        background-image: url(../img/ile-pirate_bis.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 475px;
+        margin-top: -170px;
+      }
