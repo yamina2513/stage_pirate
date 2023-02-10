@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        .div1 { grid-area: 1 / 1 / 9 / 9; }
+
+        .div1{
+        width: auto;
+        height:50vh;
+        border: 2px solid coral;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        background-image: url("../image/baniere\ gif.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+}
+
+img{
+    margin-top: -300px;
+}
