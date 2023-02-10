@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 1 / 5 / 2 / 6; }
+
+
+
+
+
+
+
+    .div1{
+        background-image: url("../image/banière.gif");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        height: 40vh;
+    }
+
+
+         /*    logo div 2    */   
+
+.div2 {
+
+    background-image: url("../image/piratland_new_logo_2021-600x512.png");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+    
+}
+
+
+          /* fin logo div 2      */
+   
+   
+    .div3{
+width: auto;
+height: 20vh;
+display:flex;
+justify-content: center;
+align-items: center;
+    }
+
+     
+    a {
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 180px;
+text-decoration: none;
+border-radius: 5vh;
+transition: 1s cubic-bezier(0.39, 0.5, 0,15, 1.36);
+    }
+
+    button {
+        color: aqua;
+        border: 1px solid black;
+        height: 5vh;
+        width: 30vh;
+        background-color: antiquewhite;
+
+    }
+
+
+a.button:hover{
+    color: blue;
+    font-weight: bolder;
+}
+.button:hover{
+    background-color: blueviolet;
+
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .menu { grid-area: 1 / 1 / 2 / 8; }
+    .image { grid-area: 2 / 1 / 3 / 8; }
+    .pres { grid-area: 3 / 1 / 4 / 8; }
+    .texte-pres { grid-area: 3 / 1 / 4 / 3; }
+    .boutton-pres { grid-area: 3 / 6 / 4 / 8; }
+    .slider { grid-area: 4 / 1 / 5 / 8; }
+    .photo1 { grid-area: 5 / 1 / 6 / 4; }
+    .photo2 { grid-area: 5 / 5 / 6 / 8; }
+    .footer { grid-area: 6 / 1 / 7 / 8; }
+    .contact { grid-area: 6 / 7 / 7 / 8; }
+    .menufooter { grid-area: 6 / 3 / 7 / 6; }
+    .logofooter { grid-area: 6 / 1 / 7 / 2; }
+
+
+     /* barre de nav  */
+     nav {
+        text-align: center;
+    
+      
+      }
+      .menu {
+        display: inline-block;
+        margin-top: -1000px;
+      }
+      .menu > li {
+        float: left;
+        color: #b36700;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        font-size: 2em;
+        text-shadow: #000000 1px 1px 1px ;
+
+      }
+      .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li {
+        font-size: 18px;
+        padding: 8px 0;
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+        font-size: 0.6em;
+        color: #000000;
+        text-shadow: #b36700 0.5px 0.5px 0.5px ;
+       
+        
+      }
+    
+       a{
+        text-decoration: none;
+        color: rgb(8, 8, 8);
+      }
+    
+
+    
+      .sub-menu li:hover {
+        color: coral;
+      }
+      .menu > li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menu > li:hover .sub-menu {
+        transform: scale(1);
+      }
+
+      li{
+       list-style: none;
+      }
+
+      
+    /* fin de barre de nav  */
+
+
+
+
+    .image{
+        background-image: url(../image/ile-pirate_bis.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 100vh;
+        margin-top: -1400px;
+        
+    }
+
+
+
+    .pres{
+        background-image: url(../image/images\ \(17\).jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 80vh;
+    }
+
+
+
