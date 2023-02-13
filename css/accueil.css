@@ -346,9 +346,49 @@ width: 100%;
     height: 150px;
     z-index: -1;
 
+}
 
+     /*debut  footer */
+          .footer{
+            width: auto;
+            height: 20vh;
+            border-top: #b36700 2px solid;
+            background-color: #000000;
+            box-shadow: #b36700 5px 2px 2px;
+          
+          }
 
-    
+          .contact{
+            width: auto;
+            height: 20vh;
+           display: block;
+          text-align: center;
+          color: #b36700;
+           font-size: 1.5em;
+           font-weight: bolder;
+          }
+
+          
+    .menu_footer{
+    width: auto;
+    height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 1.5em;
+   font-weight: bolder;
+   color: #b36700;
+  }
+
+  .logo_footer{
+    width: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* fin footer */
     
   
   
