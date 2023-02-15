@@ -149,36 +149,36 @@
 
     .div5{     
         width: auto;
-        height: 200px;
+        height: 500px;
         display:block;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: -1400px;
  }
       
-      .div6{
+    .div6{
         width: auto;
-        height: 200px;
+        height: 500px;
         display: block;
         justify-content: center;
-        margin-top: 100px;
+        margin-top:-1000px;
 
     }
        
-     .div7{     
+    .div7{     
             width: auto;
-            height: 200px;
+            height: 500px;
             display:block;
             justify-content: center;
-            margin-top: 100px;
+            margin-top:-600px;
     }
 
      
     .div8{     
         width: auto;
-        height: 200px;
+        height: 500px;
         display:block;
         justify-content: center;
-        margin-top: 100px;
+        margin-top:-200px;
 }
      
    
