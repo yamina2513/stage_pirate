@@ -190,7 +190,7 @@ a.button:hover{
         border: 1px solid blue;
         display: block;
         text-align: center;
-        margin-top: -1000px;
+        margin-top: -800px;
         color: blue;
       }
 
@@ -202,7 +202,7 @@ a.button:hover{
         width: auto;
         height: 40vh;
         background-repeat: no-repeat;
-        margin-top: -700px;
+        margin-top: -630px;
       }
 
       .button3{
@@ -211,7 +211,7 @@ a.button:hover{
         display:flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: -300px;
+        margin-top: -250px;
 
       }
 
@@ -254,7 +254,7 @@ a.button:hover{
         width: auto;
         height: 40vh;
         background-repeat: no-repeat;
-        margin-top: -300px;
+        margin-top: -250px;
       
       }
 
@@ -278,8 +278,7 @@ a.button:hover{
         height: 20vh;
         display:flex;
         justify-content: space-around;
-        align-items: center;
-        margin-top: -50px;
+        align-items: center;    
 
       }
     
@@ -300,9 +299,10 @@ a.button:hover{
         background-color: rgb(43, 70, 226);
         }
 
+  
   /* debut de footer */
 
- .fin {
+.fin {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -316,7 +316,7 @@ a.button:hover{
   .fin4 { grid-area: 5 / 5 / 6 / 6; } 
 
 .fin1{
-width: 1050px;
+width: auto;
 height: 30vh;
 border-top: red 2px solid;
 background-color:  rgb(163, 223, 43); 
@@ -374,7 +374,6 @@ margin-left: 10vh;
 
 
    /* fin de footer */
-
 
 
     

@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
 }
@@ -87,30 +86,23 @@ a.button:hover{
     background-color: rgb(43, 70, 226);
   }
 
-.parent2 {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-  .menu { grid-area: 1 / 1 / 2 / 8; }
-  .image { grid-area: 2 / 1 / 3 / 8; }
-  .pres { grid-area: 3 / 1 / 4 / 8; }
-  .texte_pres { grid-area: 3 / 1 / 4 / 3; }
-  .button_pres { grid-area: 3 / 6 / 4 / 8; }
-  .slider { grid-area: 4 / 1 / 5 / 8; }
-  .photo1 { grid-area: 5 / 1 / 6 / 4; }
-  .photo2 { grid-area: 5 / 5 / 6 / 8; }
- 
-  
 
 
-     /* barre de nav  */
-  nav {
+ /* barre de nav  */
+ nav {
     text-align: center;
     }
+
+    .parent2 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+      .menu { grid-area: 1 / 1 / 2 / 8; }
+
 
 
   .menu {
@@ -174,211 +166,107 @@ a.button:hover{
       
     /* fin de barre de nav  */
 
-
-
-
-    .image{
-        background-image: url(../image/ile-pirate_bis.jpg);
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: auto;
-        height: 100vh;
-        margin-top: -1100px;
+    
+    .parent5 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
         
-    }
+        .div4 { grid-area: 1 / 1 / 2 / 8; }
+        .div5 { grid-area: 2 / 1 / 3 / 8; }
+        .div6 { grid-area: 2 / 2 / 3 / 4; }
+        .div7 { grid-area: 2 / 5 / 3 / 7; }
+        .div8 { grid-area: 3 / 1 / 4 / 8; }
+        .div9 { grid-area: 3 / 2 / 4 / 4; }
+        .div10 { grid-area: 3 / 5 / 4 / 7; }
+        .div11{ grid-area: 4 / 1 / 5 / 8; }
+        .div12{ grid-area: 4 / 2 / 5 / 4; }
+        .div13 { grid-area: 4 / 5 / 5 / 7; }
+        .div14 { grid-area: 5 / 1 / 6 / 8; }
+        .div15 { grid-area: 5 / 2 / 6 / 4; }
+        .div16 { grid-area: 5 / 5 / 6 / 7; }
+        .div17 { grid-area: 6 / 1 / 7 / 8; }
+        .div18 { grid-area: 6 / 2 / 7 / 4; }
+        .div19 { grid-area: 6 / 5 / 7 / 7; }
+        .div20 { grid-area: 7 / 1 / 8 / 8; }
+        .div21 { grid-area: 7 / 2 / 8 / 4; }
+        .div22 { grid-area: 7 / 5 / 8 / 7; }
 
-    .pres{
-        background-image: url(../image/maxresdefault_720.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-        width: auto;
-        height: 100vh;
-        margin-top: -750px;
-    }
+        .div4{
+                        
+            width: auto;
+            height: 30vh;
+            margin-top: 200px;
+            display: block;
+            text-align: center;
+        }
 
-    .texte_pres{
+        h1{
+            color: blue;
+        }
+
+        .div5{
+                        
+            width: auto;
+            height: 40vh;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-around;
+        
+        }
+
+        .div8{
+            width: auto;
+            height: 40vh;
+            margin-top: 10px;
+            display: flex;
+           justify-content: space-around;
+        
+        }
+
        
-        width: auto;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color:yellow;
-        margin-top: -600px;
-        margin-left: 50px;
-        
-
-    }
-
-    .button_pres {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: -600px;
-      height: 5vh;
-      width: 30vh;
-      margin-left: 150px;
       
 
-  }
+        .div11{
+                        
+            width: auto;
+            height: 40vh;
+            margin-top: -100px;
+            display: flex;
+            justify-content: space-around;
+        
+        }
+        .div14{
+            width: auto;
+            height: 40vh;
+            margin-top: -180px;
+            display: flex;
+           justify-content: space-around;
+        
+        }
 
+       
+        .div17{
+                        
+            width: auto;
+            height: 40vh;
+            margin-top: -300px;
+            display: flex;
+            justify-content: space-around;
+            }
 
-a.button_pres{
-  color: blue;
-  font-weight: bolder;
-}
-
-h2{
-  text-align: center;
-  margin-top: -1700px;  
-  color: blue;
-}
-
-
-
-/* debut slider */
-         
-
-
-label {
-  background: rgb(243, 6, 6);
-  color: rgb(233, 4, 4);
-  transition: transform 400ms ease-out;
-  display: inline-block;
-  min-height: 100%;
-  width: 100%;
-  height: 80vh;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  line-height: 100vh;
- 
-}
-
-form {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  white-space: nowrap;
-  margin-top: 2300px;
-
-}
-input {
-  position: absolute;
-}
-
-
-
-input:nth-of-type(1):checked ~ label:nth-of-type(1), 
-input:nth-of-type(2):checked ~ label:nth-of-type(2),
-input:nth-of-type(3):checked ~ label:nth-of-type(3),
-input:nth-of-type(4):checked ~ label:nth-of-type(4){
- z-index: 0;
-}
-
-input:nth-of-type(1):checked ~ label {
-  transform: translate3d(0, 0, 0);
-}
-
-input:nth-of-type(2):checked ~ label {
-  transform: translate3d(-100%, 0, 0);
-}
-
-input:nth-of-type(3):checked ~ label {
-  transform: translate3d(-200%, 0, 0);
-}
-
-input:nth-of-type(4):checked ~ label {
-  transform: translate3d(-300%, 0, 0);
-}
-
-label {
-  background: #444;
-  background-size: cover;
-  font-size: 3rem;
-}
-
-label[for="diamonds"]{
-background-image: url("../image/Europa-park-attraction-eau-755x485.jpg");
-}
-
-
-label[for="hearts"]
-{
-  background-image: url("../image/actualité\ halloween.jpg");
-}
-
-
-label[for="spades"]
-{
-  background-image: url("../image/le-pal-attraction\ \(1\).gif");
-}
-
-
-
-label:before,
-label:after {
-  color: white;
-  display: block;
-  background: rgba(255,255,255,0.2);
-  position: absolute;
-  padding: 1rem;
-  font-size: 3rem;
-  height: 10rem;
-  line-height: 10rem;
-  top: 50%;
-  transform: translate3d(0, -50%, 0);
-  cursor: pointer;
-}
-
-label:before {
-  content: "\276D";
-  right: 100%;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-}
-
-label:after {
-  content: "\276C";
-  left: 100%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-}
-
-
-/* fin slider */
-
-
-h3{
-  text-align: center;
-  margin-top: 700px;
-  color: blue;
-}
-
-
-.photo1{
-  border: 1px solid coral;
-  width: auto;
-  height: 60vh;
-margin-top: 50px;
-}
-
-.photo2{
-border: 1px solid green;
-width: auto;
-height: 60vh;
-margin-top: 50px;
-}
-
-
-
-
-
- /* debut de footer */
+            .div20{
+                width: auto;
+                height: 40vh;
+                margin-top: -380px;
+                display: flex;
+               justify-content: space-around;
+            
+            } 
+     /* debut de footer */
 
  .fin {
   display: grid;
@@ -450,8 +338,7 @@ margin-left: 10vh;
 
  /* fin de footer */
 
-
-.retour {
+ .retour {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -474,19 +361,7 @@ margin-left: 10vh;
       align-items: center;
       margin-bottom: 200px;
     }
+            
+           
 
- 
-
-
-
-
-
-
-
-   
-    
-    
-
-
-
-
+        
