@@ -87,30 +87,23 @@ a.button:hover{
     background-color: rgb(43, 70, 226);
   }
 
-.parent2 {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-  .menu { grid-area: 1 / 1 / 2 / 8; }
-  .image { grid-area: 2 / 1 / 3 / 8; }
-  .pres { grid-area: 3 / 1 / 4 / 8; }
-  .texte_pres { grid-area: 3 / 1 / 4 / 3; }
-  .button_pres { grid-area: 3 / 6 / 4 / 8; }
-  .slider { grid-area: 4 / 1 / 5 / 8; }
-  .photo1 { grid-area: 5 / 1 / 6 / 4; }
-  .photo2 { grid-area: 5 / 5 / 6 / 8; }
- 
-  
 
 
-     /* barre de nav  */
-  nav {
+ /* barre de nav  */
+ nav {
     text-align: center;
     }
+
+    .parent2 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+      .menu { grid-area: 1 / 1 / 2 / 8; }
+
 
 
   .menu {
@@ -175,89 +168,60 @@ a.button:hover{
     /* fin de barre de nav  */
 
 
-    .parent3 {
+    .parent4{
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
         
-        .div4 { grid-area: 1 / 1 / 2 / 8; }
-        .div5 { grid-area: 1 / 2 / 2 / 4; }
-        .div6 { grid-area: 1 / 5 / 2 / 7; }
-        .div7 { grid-area: 2 / 1 / 3 / 8; }
-        .div8 { grid-area: 2 / 2 / 3 / 4; }
-        .div9 { grid-area: 2 / 5 / 3 / 7; }
-        .div10 { grid-area: 3 / 1 / 4 / 8; }
-        .div11{ grid-area: 3 / 2 / 4 / 4; }
-        .div12{ grid-area: 3 / 5 / 4 / 7; }
-        .div13 { grid-area: 4 / 1 / 5 / 8; }
-        .div14 { grid-area: 4 / 2 / 5 / 4; }
-        .div15 { grid-area: 4 / 5 / 5 / 7; }
-        .div16 { grid-area: 5 / 1 / 6 / 8; }
-        .div17 { grid-area: 5 / 2 / 6 / 4; } 
-        .div18 { grid-area: 5 / 5 / 6 / 7; }
-        .div19 { grid-area: 6 / 1 / 7 / 8; }
-        .div20 { grid-area: 6 / 2 / 7 / 4; }
-        .div21 { grid-area: 6 / 5 / 7 / 7; }
-        
-        
+        .div4 { grid-area: 1 / 1 / 2 / 5; }
+        .div5 { grid-area: 1 / 1 / 2 / 3; }
+        .div6 { grid-area: 1 / 3 / 2 / 5; }
+        .div7 { grid-area: 2 / 1 / 3 / 5; }
+        .div8 { grid-area: 2 / 1 / 3 / 3; }
+        .div9 { grid-area: 2 / 3 / 3 / 5; }
+        .div10 { grid-area: 3 / 1 / 4 / 5; } 
+
         .div4{
                         
             width: auto;
             height: 40vh;
-            margin-top: 200px;
+            margin-top: 300px;
             display: flex;
             justify-content: space-around;
         
         }
 
         .div7{
+                        
             width: auto;
             height: 40vh;
-            margin-top: -2700px;
+            margin-top: 300px;
             display: flex;
-           justify-content: space-around;
+            justify-content: space-around;
         
         }
-
 
         .div10{
                         
             width: auto;
             height: 40vh;
-            margin-top: -100px;
+            margin-top: 200px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center
         
         }
-        .div13{
-            width: auto;
-            height: 40vh;
-            margin-top: 50px;
-            display: flex;
-           justify-content: space-around;
-        
-        }
-        .div16{
-                        
-            width: auto;
-            height: 40vh;
-            margin-top: -50px;
-            display: flex;
-            justify-content: space-around;
-            }
 
-            .div19{
-                width: auto;
-                height: 40vh;
-                margin-top: 80px;
-                display: flex;
-               justify-content: space-around;
-            
-            }  
-    /* debut de footer */
+
+
+
+
+
+
+
+/* debut de footer */
 
 .fin {
     display: grid;
@@ -278,7 +242,7 @@ a.button:hover{
   border-top: red 2px solid;
   background-color:  rgb(163, 223, 43); 
   box-shadow: red 5px 2px 2px;
-
+  
   }
   
   
@@ -327,23 +291,6 @@ a.button:hover{
   }
   
   
-  
-  
-  
-     /* fin de footer */ 
-
-     .retour1 { grid-area: 4 / 5 / 5 / 6; } 
-
-
-    .retour1{
-      width: auto;
-      height: 10vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: -1300px;
-    }
-        
-
-        
-        
+   /* fin de footer */
+              
+             
