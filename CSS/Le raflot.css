@@ -210,9 +210,36 @@ a.button:hover{
             height: 40vh;
             margin-top: 200px;
             display: flex;
-            justify-content: center
+            justify-content: center;
+            text-align: center;
         
         }
+
+        .retour {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            
+          
+          
+          
+          .retour1 { grid-area: 4 / 5 / 5 / 6; } 
+          
+          
+              .retour1{
+                width: auto;
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 200px;
+              }
+        
+        
 
 
 
