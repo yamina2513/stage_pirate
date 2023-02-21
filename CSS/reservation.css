@@ -166,8 +166,7 @@ a.button:hover{
 
       
     /* fin de barre de nav  */
-
-    .parent1 {
+    .parent3 {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -175,54 +174,35 @@ a.button:hover{
         grid-row-gap: 0px;
         }
         
-        .div5 { grid-area: 2 / 1 / 3 / 6; }
-        .div6 { grid-area: 3 / 1 / 4 / 6; }
-        .div7 { grid-area: 4 / 1 / 5 / 6; }
-        .div8 { grid-area: 5 / 1 / 6 / 6; }
+        .div4 { grid-area: 2 / 1 / 5 / 6; }
+        .div5 { grid-area: 3 / 1 / 4 / 3; }
+        .div6 { grid-area: 3 / 4 / 4 / 6; }
+        
+    
+    .div4{
+        background-image: url(../image/Piratland-entrée.jpg);
+        background-size: cover;
+        width: auto;
+        height: 1000px;
+        display: flex;
+                
+    }
 
-
-        .div4{
-          text-align: center;
-          color: blue;
-          margin-top: 300px;
-        }
+    .div5{
+        width: auto;
+        height: 40vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
     
-        .div5{     
-            width: auto;
-            height: 500px;
-            display:block;
-            justify-content: center;
-            background-color: chartreuse;
-            margin-top: -350px;
-     }
-          
-        .div6{
-            width: auto;
-            height: 500px;
-            display: block;
-            justify-content: center;            
-            background-color: chartreuse;
-            margin-top: -200px;
+    .div6{
+        width: auto;
+        height: 40vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
     
-        }
-           
-        .div7{     
-                width: auto;
-                height: 500px;
-                display:block;
-                justify-content: center;
-                margin-top: -10px;
-                background-color: chartreuse;
-        }
-    
-         
-        .div8{     
-            width: auto;
-            height: 500px;
-            display:block;
-            justify-content: center;
-            margin-top: 100px;
-            background-color: chartreuse;
     }
 
 
@@ -230,23 +210,56 @@ a.button:hover{
 
 
 
-    
-          
 
-          /* debut de footer */
+
+
+    .retour {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        
+      
+      
+      
+      .retour1 { grid-area: 4 / 5 / 5 / 6; } 
+      
+      
+          .retour1{
+            width: auto;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+          }
+    
+    
+
+
+
+
+
+
+
+
+/* debut de footer */
 
 .fin {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-  
-  .fin1 { grid-area: 5 / 1 / 6 / 6; }
-  .fin2 { grid-area: 5 / 1 / 6 / 2; }
-  .fin3 { grid-area: 5 / 3 / 6 / 4; }
-  .fin4 { grid-area: 5 / 5 / 6 / 6; } 
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.fin1 { grid-area: 5 / 1 / 6 / 6; }
+.fin2 { grid-area: 5 / 1 / 6 / 2; }
+.fin3 { grid-area: 5 / 3 / 6 / 4; }
+.fin4 { grid-area: 5 / 5 / 6 / 6; } 
 
 .fin1{
 width: auto;
@@ -284,10 +297,10 @@ margin-top: 3vh;
 }
 
 
-     a{
-      text-decoration: none;
-      color: blue;
-     }
+   a{
+    text-decoration: none;
+    color: blue;
+   }
 
 
 .fin4{
@@ -303,36 +316,4 @@ margin-left: 10vh;
 }
 
 
-
-
-
-   /* fin de footer */
-
-    
-   .retour {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .retour1 { grid-area: 4 / 5 / 5 / 6; } 
-
-
-    .retour1{
-      width: auto;
-      height: 10vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: -800px;
-    }    
-
-
-
-
-
-
-
-
+/* fin de footer */
