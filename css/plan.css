@@ -47,8 +47,8 @@
     }
 
     .button{
-        background-color: black;
-        color: white;
+        background-color: cyan;
+        color:chocolate;
         border: 1px solid wheat;
         border-radius: 5px;
         padding: 10px;
@@ -57,12 +57,12 @@
 
     .button a {
         text-align: none;
-        color: white;
+        color: chocolate;
     }
 
     .button:hover{
-        background-color: aliceblue;
-        color: black;
+        background-color:cornflowerblue;
+        color: rgb(69,15,168);
     }
 
   /* header */
@@ -88,7 +88,7 @@
     line-height: 40px;
     cursor: pointer;
     font-size: 1em;
-    text-shadow: #000000 1px 1px 1px ;
+    text-shadow: cornflowerblue 1px 1px 1px ;
 
   }
   .sub-menu {
@@ -103,7 +103,7 @@
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     font-size: 0.6em;
-    color: #000000;
+    color: #4113c2;
     text-shadow: #b36700 0.5px 0.5px 0.5px ;
    
     
