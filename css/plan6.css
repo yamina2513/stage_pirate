@@ -1,7 +1,11 @@
 *{margin: 0;
 }
 
-
+body {
+  background-color:rgba(160, 179, 179, 0.952);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
    
 
 
@@ -237,7 +241,7 @@
   
   .fin1{
   width: auto;
-  height: 30vh;
+  height: 35vh;
   border-top: red 2px solid;
   background-color:  rgb(163, 223, 43); 
   box-shadow: red 5px 2px 2px;
