@@ -53,7 +53,7 @@ body {
     }
 
     .button{
-        background-color:cyan;
+        background-color:rgb(113,123,136);
         color: chocolate;
         border: 1px solid wheat;
         border-radius: 5px;
@@ -67,7 +67,7 @@ body {
     }
 
     .button:hover{
-        background-color: cornflowerblue;
+        background-color: white;
         color:rgb(69, 15, 168);
     }
 
@@ -243,7 +243,7 @@ body {
   width: auto;
   height: 35vh;
   border-top: red 2px solid;
-  background-color:  rgb(163, 223, 43); 
+  background-color:  rgb(63,58,70); 
   box-shadow: red 5px 2px 2px;
   
   }
@@ -270,15 +270,15 @@ body {
   justify-content: space-evenly;
   font-size: 1.5em;
   font-weight: bolder;
-  color: blue; 
+  color:rgba(245,221,9,0.925); 
   margin-top: 3vh;
   }
   
   
-       a{
+  a{
         text-decoration: none;
-        color: blue;
-       }
+        color: rgba(245,221,9,0.925);
+  }
   
   
   .fin4{
@@ -286,7 +286,7 @@ body {
   height: 20vh;
   display: block;
   text-align: center;
-  color: blue;
+  color: rgba(245,221,9,0.925);
   font-size: 1.5em;
   font-weight: bolder;
   margin-top: 3vh;

@@ -51,7 +51,7 @@ body {
     }
 
     .button{
-        background-color: black;
+        background-color:rgb(113,123,136);
         color: white;
         border: 1px solid wheat;
         border-radius: 5px;
@@ -65,7 +65,7 @@ body {
     }
 
     .button:hover{
-        background-color: aliceblue;
+        background-color:white;
         color: black;
     }
 
@@ -403,7 +403,7 @@ body {
   width: auto;
   height: 30vh;
   border-top: red 2px solid;
-  background-color:  rgb(163, 223, 43); 
+  background-color:  rgb(63,58,70); 
   box-shadow: red 5px 2px 2px;
   
   }
@@ -437,7 +437,7 @@ body {
   
        a{
         text-decoration: none;
-        color: blue;
+        color: rgba(245,221,9,0.925);
        }
   
   
