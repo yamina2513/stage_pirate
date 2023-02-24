@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color:  rgba(160, 179, 179, 0.953);
+}
 
 
 .parent {
@@ -170,6 +173,10 @@ a.button:hover{
 
   li{
       list-style: none;
+      }
+
+      .sub-menu li a:hover{
+        color: red
       }
 
       

@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color:  rgba(160, 179, 179, 0.953);
+}
 
 
 .parent {
@@ -163,6 +166,10 @@ a.button:hover{
   li{
       list-style: none;
       }
+      
+      .sub-menu li a:hover{
+        color: red
+      }  
 
       
     /* fin de barre de nav  */
@@ -184,7 +191,7 @@ a.button:hover{
         .div4{
           text-align: center;
           color: blue;
-          margin-top: 300px;
+          margin-top: -600px;
         }
     
         .div5{     
@@ -192,7 +199,7 @@ a.button:hover{
             height: 500px;
             display:block;
             justify-content: center;
-            background-color: chartreuse;
+            
             margin-top: -350px;
      }
           
@@ -201,7 +208,7 @@ a.button:hover{
             height: 500px;
             display: block;
             justify-content: center;            
-            background-color: chartreuse;
+            
             margin-top: -200px;
     
         }
@@ -212,7 +219,7 @@ a.button:hover{
                 display:block;
                 justify-content: center;
                 margin-top: -10px;
-                background-color: chartreuse;
+              
         }
     
          
@@ -222,7 +229,7 @@ a.button:hover{
             display:block;
             justify-content: center;
             margin-top: 100px;
-            background-color: chartreuse;
+            
     }
 
 

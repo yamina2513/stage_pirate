@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color:  rgba(160, 179, 179, 0.953);
+}
 
 
 .parent {
@@ -170,6 +173,9 @@ a.button:hover{
   li{
       list-style: none;
       }
+      .sub-menu li a:hover{
+        color: red;
+      }
 
       
     /* fin de barre de nav  */
@@ -207,7 +213,7 @@ a.button:hover{
                         
             width: auto;
             height: 40vh;
-            margin-top: 200px;
+            margin-top: -600px;
             display: flex;
             justify-content: space-around;
         
@@ -216,7 +222,7 @@ a.button:hover{
         .div7{
             width: auto;
             height: 40vh;
-            margin-top: -2700px;
+            margin-top: -300px;
             display: flex;
            justify-content: space-around;
         
@@ -332,17 +338,29 @@ a.button:hover{
   
      /* fin de footer */ 
 
-     .retour1 { grid-area: 4 / 5 / 5 / 6; } 
-
-
-    .retour1{
-      width: auto;
-      height: 10vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: -1300px;
-    }
+     .retour {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+      
+      
+    
+    
+    
+    .retour1 { grid-area: 4 / 5 / 5 / 6; } 
+    
+    
+        .retour1{
+          width: auto;
+          height: 10vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 200px;
+        }
         
 
         

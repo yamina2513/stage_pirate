@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color:  rgba(160, 179, 179, 0.953);
+}
 
 
 .parent {
@@ -163,7 +166,9 @@ a.button:hover{
   li{
       list-style: none;
       }
-
+      .sub-menu li a:hover{
+        color: red
+      }
       
     /* fin de barre de nav  */
 
@@ -188,7 +193,7 @@ a.button:hover{
                         
             width: auto;
             height: 40vh;
-            margin-top: 300px;
+            margin-top: -600px;
             display: flex;
             justify-content: space-around;
         
@@ -198,7 +203,7 @@ a.button:hover{
                         
             width: auto;
             height: 40vh;
-            margin-top: 300px;
+            margin-top: -300px;
             display: flex;
             justify-content: space-around;
         
@@ -208,7 +213,7 @@ a.button:hover{
                         
             width: auto;
             height: 40vh;
-            margin-top: 200px;
+            
             display: flex;
             justify-content: center;
             text-align: center;
