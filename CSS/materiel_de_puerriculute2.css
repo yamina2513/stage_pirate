@@ -3,6 +3,9 @@
 box-sizing: border-box;
 }
 
+body{
+  background-color:  rgba(160, 179, 179, 0.953);
+}
 
 
 .parent {
@@ -163,6 +166,9 @@ a.button:hover{
   li{
       list-style: none;
       }
+      .sub-menu li a:hover{
+        color: red;
+      }
 
       
     /* fin de barre de nav  */
@@ -178,10 +184,11 @@ a.button:hover{
         .div4 { grid-area: 1 / 1 / 2 / 6; }
 
         .div4{
-            margin-top: 250px;
+            
             display: block;
             text-align: center;
             color: blue;
+            margin-top: -600px;
         }
 
          /* --menu--*/  
@@ -204,7 +211,7 @@ a.button:hover{
               height: 500px;
               display:block;
               justify-content: center;
-              margin-top: -1400px;
+              margin-top: -700px;
        }
             
           .div6{
@@ -212,7 +219,7 @@ a.button:hover{
               height: 500px;
               display: block;
               justify-content: center;
-              margin-top:-1000px;
+              margin-top:-500px;
       
           }
              
@@ -221,7 +228,7 @@ a.button:hover{
                   height: 500px;
                   display:block;
                   justify-content: center;
-                  margin-top:-600px;
+                  margin-top:-300px;
           }
       
            
@@ -230,7 +237,7 @@ a.button:hover{
               height: 500px;
               display:block;
               justify-content: center;
-              margin-top:-200px;
+              margin-top:-100px;
       }
       
       
